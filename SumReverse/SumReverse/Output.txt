@@ -1,0 +1,14 @@
+Current Sum: 1243
+Current Sum: 124
+Current Sum: 12
+Current Sum: 1
+The sum of the digits 1243 is: 10
+Current Sum: 5
+Current Sum: 53
+Current Sum: 538
+Current Sum: 5387
+Current Sum: 53878
+Current Sum: 538789
+Current Sum: 5387895
+Current Sum: 53878956
+The reverse of 65987835 is:53878956

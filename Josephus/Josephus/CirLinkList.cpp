@@ -31,6 +31,10 @@ void CirLinkList::Build(int ct)
 
 CirLinkList::~CirLinkList()
 {
+	for (int i = 0; i < nodect; i++)
+	{
+		Kill();
+	}
 }
 
 //Dump shows a count and a structure of the linked list.
@@ -68,12 +72,6 @@ void CirLinkList::Dump()
 //Return int
 int CirLinkList::Kill()
 {
-	if (start->next == start) //check if this will kill last node
-	{
-		//delete start;
-		//nodect = 0;
-		return 1;
-	}
 	Node *nptr;
 	nptr = start->back; //set nptr to be the node behind start
 
