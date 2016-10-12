@@ -1,5 +1,16 @@
-//
-//
+//**************************************************************
+//                   Project #3 Binary Search Tree
+//                    Name: Andrew Nash
+//                    Data Structures Date: 10/09/16
+//***************************************************************
+//      This program is an examination of randomly created binary
+//		search trees ipl after a random number of insertions and
+//		deletions. 
+//*****************************************************************
+//I have written the entire program as turned in and have not copied
+//this code, or parts of this code from the internet or another 
+//student.Signature____________________
+//*****************************************************************
 #include <iostream>
 #include <random>
 #include <vector>
@@ -9,11 +20,6 @@
 #include <iomanip>
 #define TREE_SIZE 128
 using namespace std;
-
-double GetFloatPrecision(double value, double precision)
-{
-	return (floor((value * pow(10, precision) + 0.5)) / pow(10, precision));
-}
 
 int main()
 {
