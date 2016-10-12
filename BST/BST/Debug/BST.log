@@ -1,0 +1,17 @@
+﻿Build started 10/12/2016 7:30:47 AM.
+     1>Project "E:\workspace\DataStruct3013\BST\BST\BST.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt BST.cpp
+         BST.cpp
+     1>e:\workspace\datastruct3013\bst\bst\bst.cpp(23): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>e:\workspace\datastruct3013\bst\bst\bst.cpp(72): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+     1>e:\workspace\datastruct3013\bst\bst\bst.cpp(77): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\workspace\DataStruct3013\BST\Debug\BST.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\workspace\DataStruct3013\BST\Debug\BST.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\workspace\DataStruct3013\BST\Debug\BST.lib" /MACHINE:X86 Debug\BST.obj
+         Debug\Tree.obj
+         BST.vcxproj -> E:\workspace\DataStruct3013\BST\Debug\BST.exe
+     1>Done Building Project "E:\workspace\DataStruct3013\BST\BST\BST.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.98
